@@ -1,5 +1,21 @@
-.hello {
+.search_container {
   color: blue;
+  border: 1px solid red;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.search_btn {
+  border: 1px solid black;
+  padding: 1em 3em;
+  font-size: 1.2em;
+  border-radius: 10px;
+}
+
+.search_content {
+  border: 1px solid red;
 }
 
 /*# sourceMappingURL=FindACar.module.css.map */
