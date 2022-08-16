@@ -1,10 +1,16 @@
 .search_container {
   color: blue;
-  border: 1px solid red;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+}
+
+.wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .search_btn {
@@ -12,6 +18,8 @@
   padding: 1em 3em;
   font-size: 1.2em;
   border-radius: 10px;
+  color: black;
+  cursor: pointer;
 }
 
 .search_content {
